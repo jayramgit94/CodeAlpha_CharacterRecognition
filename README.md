@@ -1,22 +1,20 @@
-# CodeAlpha - Handwritten Character Recognition
+# Handwritten Character Recognition - CodeAlpha Project
 
-## 🎯 Objective
-Build a CNN model to recognize handwritten digits from the MNIST dataset.
+## Objective
+This project focuses on building a Convolutional Neural Network (CNN) to recognize handwritten digits using the MNIST dataset.
 
-## 🧠 Techniques
-- Deep Learning using CNN
-- Data Normalization and Reshaping
-- Image Classification
+## Techniques Used
+To solve this problem, we used:
+- Deep Learning with CNN (Convolutional Neural Networks)  
+- Data normalization and reshaping for better training  
+- Image classification techniques
 
-## 📊 Dataset
-- MNIST: 60,000 training + 10,000 testing images
-- 28x28 grayscale handwritten digits
+## Dataset
+We used the **MNIST dataset**, which contains:
+- 60,000 images for training  
+- 10,000 images for testing  
+- Each image is 28x28 pixels in grayscale and represents a digit from 0 to 9
 
-## 📈 Results
-Achieved over 98% accuracy on test data using a CNN model with dropout and pooling layers.
-
-## 🔗 GitHub Repo
-[Your GitHub Link Here]
-
-## 🎥 Demo Video
-[Your LinkedIn Video Link Here]
+## Results
+Our CNN model achieved **over 98% accuracy** on the test dataset.  
+We used techniques like **dropout** and **pooling layers** to improve performance and avoid overfitting.
